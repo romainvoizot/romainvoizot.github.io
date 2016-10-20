@@ -122,11 +122,13 @@ section{
     width: 30%;
 }
 .right{
+    display: inline-block;
     float: left;
     width: 70%;
 }
 
 .cleft, .cright{
+    display: inline-block;
     width: 50%;
     float: left;
 }
