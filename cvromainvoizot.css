@@ -132,13 +132,15 @@ section{
 }
 
 .sousleft{
+    display: inline-block;
     width: 30%;
     float: left;
 }
 
 .sousright{
+    display: inline-block;
     width: 30%;
-    float: right;
+    float: left;
 }
 
 .sec::after, .exp::after, .reco::after{
