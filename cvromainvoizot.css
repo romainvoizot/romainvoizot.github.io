@@ -131,6 +131,18 @@ section{
     float: left;
 }
 
+.soousleft, .soousright {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+.soousleft, .soousright > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+
+}
+
 .sec::after, .exp::after, .reco::after{
     content: "";
     display: table;
