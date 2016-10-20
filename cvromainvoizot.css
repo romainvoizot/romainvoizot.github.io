@@ -1,0 +1,244 @@
+body{
+    font-family: 'Helvetica', Arial, Serif;
+    font-size: 13px;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Page Index/Home*/
+
+h1{
+    font-family: 'Avenir';
+    letter-spacing: 1px;
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+}
+
+header{
+    height: 100px;
+}
+
+footer{
+    height: 80px;
+    padding-top: 30px;
+    text-align: center;
+    background-color: #C5C5C5;
+    border-top: 2px solid #FFF;
+}
+
+nav{
+    width: 100%;
+    background-color: #000;
+}
+
+nav ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav li{
+    list-style-type: none;
+    float: left;
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 50px;
+    color: #FFF;
+    text-transform: Capitalize;
+    font-size: 15px;
+}
+
+.table{
+    display: table;
+    margin: 0 auto;
+}
+   
+.menu-ind:hover {
+    -webkit-transform:scale(1.5);
+    -moz-transform:scale(1.5);
+    -o-transform:scale(1.5);
+    transform:scale(1.5);
+    transition: all 0.4s ease;
+}
+
+.menu-exp:hover {
+    -webkit-transform:scale(1.5);
+    -moz-transform:scale(1.5);
+    -o-transform:scale(1.5);
+    transform:scale(1.5);
+    transition: all 0.4s ease;
+}
+
+.menu-hob:hover {
+    -webkit-transform:scale(1.5);
+    -moz-transform:scale(1.5);
+    -o-transform:scale(1.5);
+    transform:scale(1.5);
+    transition: all 0.4s ease;
+}
+
+.menu-con:hover {
+    -webkit-transform:scale(1.5);
+    -moz-transform:scale(1.5);
+    -o-transform:scale(1.5);
+    transform:scale(1.5);
+    transition: all 0.4s ease;
+}
+
+.photoperso{
+    overflow:hidden;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    width:60%;
+    height:60%;
+}
+
+.graphiquepersonnalite{
+    position: relative;
+     width: 70%;
+     margin-left: -8%;
+     margin-top: -14%;
+     margin-bottom:-15%;
+     z-index: -100;
+}
+
+section{
+    width: 100%;
+    min-height: 300px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.sec{
+    margin: 0px 10%;
+}
+
+.left{
+    float: left;
+    width: 30%;
+}
+.right{
+    float: left;
+    width: 70%;
+}
+
+.cleft, .cright, .sousleft, .sousright{
+    width: 50%;
+    float: left;
+}
+
+.sec::after, .exp::after, .reco::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.illustration{
+    margin-left: 20%;
+    width: 65%;
+}
+
+.tailleicone{
+    width: 30%;
+    margin-left: 28%;
+}
+
+/*Page Experiences*/
+
+.exp1{
+    margin-bottom: 0px;
+}
+
+.exp2{
+    margin-bottom: 0px;
+}
+
+.exp3{
+    margin-bottom: 0px;
+}
+
+.exp4{
+    margin-bottom: 0px;
+}
+
+.leftexp{
+    width: 45%;
+    float: left;
+}
+
+.rightexp{
+    width: 50%;
+    float: left;
+    margin-left: 5%;
+}
+
+.graphiqueplein{
+    padding: 2px;
+    background-color: #fb7089;
+    width: 90%;
+}
+
+.graphiquemoyen{
+    padding: 2px;
+    background-color: #fea45e;
+    width: 65%;
+}
+
+.graphiquebas{
+    padding: 2px;
+    background-color: #ffdd3f;
+    width: 50%
+}
+
+/* Page Portfolio et Hobbies*/
+
+.taillelampe{
+    width: 80%;
+}
+
+.portfolio2{
+    position: relative;
+    text-align: center;
+}
+
+.circle {
+    position : relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height:0;
+    padding-bottom: 50%;
+    -moz-border-radius: 50%; 
+    -webkit-border-radius: 50%; 
+    border-radius: 50%;
+    background: #ffdd3f; 
+}
+
+/*Contact*/
+
+.contactclass{
+    text-align: center;
+}
+
+/*Aspect Responsive*/
+
+@media screen and (max-width: 780px){
+    header{
+        height: 50px;
+    }
+    h1{
+        font-size: 28px;
+        margin: 20px 0px 0px 0px;
+    }
+    nav li a{
+        font-size: 12px;
+        padding: 10px;
+    }
+    nav li:hover a{
+        padding: 5px 10px 10px 10px;
+    }
+}
