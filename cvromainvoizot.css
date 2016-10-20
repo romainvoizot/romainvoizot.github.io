@@ -122,25 +122,21 @@ section{
     width: 30%;
 }
 .right{
-    display: block;
     float: left;
     width: 70%;
 }
 
 .cleft, .cright{
-    display: block;
     width: 50%;
     float: left;
 }
 
 .sousleft{
-    display: block;
     width: 30%;
     float: left;
 }
 
 .sousright{
-    display: block;
     width: 30%;
     float: left;
 }
