@@ -205,19 +205,6 @@ section{
     text-align: center;
 }
 
-.circle {
-    position : relative;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    height:0;
-    padding-bottom: 50%;
-    -moz-border-radius: 50%; 
-    -webkit-border-radius: 50%; 
-    border-radius: 50%;
-    background: #ffdd3f; 
-}
-
 /*Contact*/
 
 .contactclass{
@@ -227,6 +214,41 @@ section{
 /*Aspect Responsive*/
 
 @media screen and (max-width: 780px){
+    header{
+        height: 50px;
+    }
+    h1{
+        font-size: 28px;
+        margin: 20px 0px 0px 0px;
+    }
+    nav li a{
+        font-size: 12px;
+        padding: 10px;
+    }
+    nav li:hover a{
+        padding: 5px 10px 10px 10px;
+    }
+}
+
+
+@media screen and (min-width: 781px) and (max-width: 1279px){
+    header{
+        height: 50px;
+    }
+    h1{
+        font-size: 28px;
+        margin: 20px 0px 0px 0px;
+    }
+    nav li a{
+        font-size: 12px;
+        padding: 10px;
+    }
+    nav li:hover a{
+        padding: 5px 10px 10px 10px;
+    }
+}
+
+@media screen and (min-width: 1280px){
     header{
         height: 50px;
     }
