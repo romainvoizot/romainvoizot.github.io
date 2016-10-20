@@ -126,18 +126,8 @@ section{
     width: 70%;
 }
 
-.cleft, .cright{
+.cleft, .cright, .sousleft, .sousright{
     width: 50%;
-    float: left;
-}
-
-.sousleft{
-    width: 30%;
-    float: left;
-}
-
-.sousright{
-    width: 30%;
     float: left;
 }
 
