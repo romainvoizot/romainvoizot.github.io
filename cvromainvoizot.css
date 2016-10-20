@@ -126,9 +126,19 @@ section{
     width: 70%;
 }
 
-.cleft, .cright, .sousleft, .sousright{
+.cleft, .cright{
     width: 50%;
     float: left;
+}
+
+.sousleft{
+    width: 30%;
+    float: left;
+}
+
+.sousright{
+    width: 30%;
+    float: right;
 }
 
 .sec::after, .exp::after, .reco::after{
@@ -214,41 +224,6 @@ section{
 /*Aspect Responsive*/
 
 @media screen and (max-width: 780px){
-    header{
-        height: 50px;
-    }
-    h1{
-        font-size: 28px;
-        margin: 20px 0px 0px 0px;
-    }
-    nav li a{
-        font-size: 12px;
-        padding: 10px;
-    }
-    nav li:hover a{
-        padding: 5px 10px 10px 10px;
-    }
-}
-
-
-@media screen and (min-width: 781px) and (max-width: 1279px){
-    header{
-        height: 50px;
-    }
-    h1{
-        font-size: 28px;
-        margin: 20px 0px 0px 0px;
-    }
-    nav li a{
-        font-size: 12px;
-        padding: 10px;
-    }
-    nav li:hover a{
-        padding: 5px 10px 10px 10px;
-    }
-}
-
-@media screen and (min-width: 1280px){
     header{
         height: 50px;
     }
