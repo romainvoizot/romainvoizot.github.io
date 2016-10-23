@@ -126,9 +126,11 @@ section{
     width: 70%;
 }
 
-.cleft, .cright, .sousleft, .sousright{
-    width: 50%;
+.cleft{
+    width: 80%;
     float: left;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .sec::after, .exp::after, .reco::after{
